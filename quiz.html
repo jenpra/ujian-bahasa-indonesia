@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujian Bahasa Indonesia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ujian Bahasa Indonesia</h1>
+        <p id="studentInfo"></p>
+        <form id="quizForm">
+            <!-- Soal 1 -->
+            <div class="question">
+                <h3>1. Apa sinonim dari kata "besar"?</h3>
+                <input type="radio" name="q1" value="salah" required> Kecil<br>
+                <input type="radio" name="q1" value="salah"> Ramping<br>
+                <input type="radio" name="q1" value="benar"> Gede<br>
+                <input type="radio" name="q1" value="salah"> Tipis<br>
+            </div>
+            <!-- Soal 2 -->
+            <div class="question">
+                <h3>2. Apa antonim dari kata "panas"?</h3>
+                <input type="radio" name="q2" value="benar" required> Dingin<br>
+                <input type="radio" name="q2" value="salah"> Hangat<br>
+                <input type="radio" name="q2" value="salah"> Lembut<br>
+                <input type="radio" name="q2" value="salah"> Lembab<br>
+            </div>
+            <!-- Tambahkan lebih banyak soal sesuai kebutuhan -->
+            
+            <button type="submit">Kumpulkan Jawaban</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Siswa - Ujian Bahasa Indonesia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login Siswa</h1>
+        <form id="loginForm">
+            <label for="nis">NIS (Nomor Induk Siswa):</label><br>
+            <input type="text" id="nis" name="nis" required><br><br>
+            
+            <label for="nama">Nama Lengkap:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+            
+            <button type="submit">Masuk</button>
+        </form>
+        <div id="loginError" class="error-message"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
